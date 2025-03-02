@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodata Muhammad Arief Al Sulthan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Navbar -->
+  <nav class="bg-gray-800 py-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <a href="#" class="text-2xl font-bold">Arief Bio Data</a>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#about" class="hover:text-gray-400">Tentang Saya</a></li>
+        <li><a href="#hobby" class="hover:text-gray-400">Hobi</a></li>
+        <li><a href="#academic" class="hover:text-gray-400">Akademik</a></li>
+        <li><a href="#dream" class="hover:text-gray-400">Cita-Cita</a></li>
+        <li><a href="#contact" class="hover:text-gray-400">Kontak</a></li>
+      </ul>
+      <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+    </div>
+    <ul id="mobile-menu" class="hidden flex-col space-y-3 bg-gray-800 text-white p-4 md:hidden">
+      <li><a href="#about" class="hover:text-gray-400">Tentang Saya</a></li>
+      <li><a href="#hobby" class="hover:text-gray-400">Hobi</a></li>
+      <li><a href="#academic" class="hover:text-gray-400">Akademik</a></li>
+      <li><a href="#dream" class="hover:text-gray-400">Cita-Cita</a></li>
+      <li><a href="#contact" class="hover:text-gray-400">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('assets/background.jpg');">
+    <div class="text-center fade-in">
+      <img src="Jugram Haschwalth Bleach Manga Colored Icon.jpeg" alt="Foto Profil" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-2">Muhammad Arief Al Sulthan</h1>
+      <p class="text-lg md:text-xl text-gray-300">Selamat datang di biodata saya!</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Tentang Saya</h2>
+      <div class="max-w-2xl mx-auto text-center">
+        <p class="text-lg text-gray-300 mb-4">
+          Halo! Nama saya <span class="font-bold">Muhammad Arief Al Sulthan</span>. Saya lahir di Palembang pada tanggal <span class="font-bold">29 Desember 2008</span>, dan sekarang berusia <span class="font-bold">16 tahun</span>.
+        </p>
+        <p class="text-lg text-gray-300">
+          Saya tinggal di Palembang, tepatnya di <span class="font-bold">Plaju, Lorong Sentosa</span>. Saya adalah seorang pelajar yang sangat tertarik dengan dunia teknologi, terutama di bidang <span class="font-bold">Cyber Security</span>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobby Section -->
+  <section id="hobby" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Hobi Saya</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-gray-800 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-bold mb-2">🎮 Bermain Game</h3>
+          <p class="text-gray-300">Saya suka bermain game untuk menghilangkan stres dan meningkatkan kreativitas.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-bold mb-2">💻 Pemrograman</h3>
+          <p class="text-gray-300">Saya senang belajar pemrograman dan membuat proyek-proyek kecil.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg text-center">
+          <h3 class="text-xl font-bold mb-2">🏊‍♂️ Berenang</h3>
+          <p class="text-gray-300">Saya menikmati berenang sebagai olahraga favorit untuk menjaga kesehatan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Section -->
+  <section id="academic" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Akademik</h2>
+      <div class="max-w-2xl mx-auto text-center">
+        <p class="text-lg text-gray-300 mb-4">
+          Saat ini, saya adalah siswa kelas <span class="font-bold">11</span> di <span class="font-bold">SMA Negeri 8 Palembang</span>.
+        </p>
+        <p class="text-lg text-gray-300">
+          Saya sangat tertarik dengan mata pelajaran <span class="font-bold">Teknologi Informasi</span> dan berharap dapat melanjutkan studi di bidang <span class="font-bold">Cyber Security</span> setelah lulus SMA.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dream Section -->
+  <section id="dream" class="py-20 bg-gray-900">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Cita-Cita</h2>
+      <div class="max-w-2xl mx-auto text-center">
+        <p class="text-lg text-gray-300 mb-4">
+          Cita-cita saya adalah menjadi seorang <span class="font-bold">Programmer Cyber Security</span>. Saya ingin membantu melindungi sistem dan data dari serangan cyber yang dapat merugikan banyak orang.
+        </p>
+        <p class="text-lg text-gray-300">
+          Saya percaya bahwa dengan belajar dan berlatih secara konsisten, saya dapat mencapai cita-cita ini dan berkontribusi untuk dunia teknologi yang lebih aman.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Kontak Saya</h2>
+      <div class="max-w-2xl mx-auto text-center">
+        <p class="text-lg text-gray-300 mb-6">
+          Jika Anda ingin menghubungi saya, silakan kirim pesan melalui email atau media sosial di bawah ini.
+        </p>
+        <div class="flex justify-center space-x-4">
+          <a href="mailto:ariefalsulthan321@gmail.com" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg">📧 Email</a>
+          <a href="https://instagram.com/ackerman.js" class="bg-pink-500 hover:bg-pink-600 text-white py-2 px-4 rounded-lg">📸 Instagram</a>
+          <a href="https://github.com/arief-png" class="bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded-lg">🐱 GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 text-center">
+    <p class="text-gray-300">© 2025 Muhammad Arief Al Sulthan.</p>
+  </footer>
+
+  <!-- JavaScript untuk Toggle Menu -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
